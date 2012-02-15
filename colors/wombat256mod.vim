@@ -34,7 +34,7 @@ hi StatusLine	ctermfg=230		ctermbg=238		cterm=none		guifg=#ffffd7	guibg=#444444	
 hi VertSplit	ctermfg=238		ctermbg=238		cterm=none		guifg=#444444	guibg=#444444	gui=none
 hi StatusLineNC	ctermfg=241		ctermbg=238		cterm=none		guifg=#857b6f	guibg=#444444	gui=none
 hi LineNr		ctermfg=241		ctermbg=232		cterm=none		guifg=#857b6f	guibg=#080808	gui=none
-hi SpecialKey	ctermfg=235		ctermbg=234		cterm=none		guifg=#626262	guibg=#242424	gui=none
+hi SpecialKey	ctermfg=237		ctermbg=234		cterm=none		guifg=#424242	guibg=#242424	gui=none
 hi WarningMsg	ctermfg=203										guifg=#ff5f55
 hi ErrorMsg		ctermfg=196		ctermbg=236		cterm=bold		guifg=#ff2026	guibg=#3a3a3a	gui=bold
 
@@ -51,6 +51,10 @@ hi DiffAdd						ctermbg=17										guibg=#2a0d6a
 hi DiffDelete	ctermfg=234		ctermbg=60		cterm=none		guifg=#242424	guibg=#3e3969	gui=none
 hi DiffText						ctermbg=53		cterm=none						guibg=#73186e	gui=none
 hi DiffChange					ctermbg=237										guibg=#382a37
+
+" Diff... TODO: gui colors
+hi diffRemoved	ctermfg=160										guifg=#e21c16
+hi diffAdded	ctermfg=70										guifg=#65b73b
 
 "hi CursorIM
 "hi Directory
