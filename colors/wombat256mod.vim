@@ -53,8 +53,8 @@ hi DiffText						ctermbg=53		cterm=none						guibg=#73186e	gui=none
 hi DiffChange					ctermbg=237										guibg=#382a37
 
 " Diff... TODO: gui colors
-hi diffRemoved	ctermfg=160										guifg=#e21c16
-hi diffAdded	ctermfg=70										guifg=#65b73b
+hi diffRemoved	ctermfg=173		cterm=none		guifg=#e5786d	gui=none
+hi diffAdded	ctermfg=70		cterm=none		guifg=#65b73b	gui=none
 
 "hi CursorIM
 "hi Directory
