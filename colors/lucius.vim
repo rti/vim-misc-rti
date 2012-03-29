@@ -131,7 +131,7 @@ if g:lucius_style == "dark"
     hi TabLine      guifg=bg        guibg=#b2b2b2   ctermfg=bg     ctermbg=249       gui=none      cterm=none
     hi TabLineFill  guifg=#444444   guibg=#b2b2b2   ctermfg=238    ctermbg=249       gui=none      cterm=none
     hi TabLineSel   guifg=fg        guibg=#005f87   ctermfg=fg     ctermbg=24        gui=bold      cterm=bold
-    hi VertSplit    guifg=#b2b2b2   guibg=#b2b2b2   ctermfg=249    ctermbg=249       gui=none      cterm=none
+    hi VertSplit    guifg=#444444   guibg=#444444   ctermfg=238    ctermbg=238       gui=none      cterm=none
     hi Folded       guifg=#bcbcbc   guibg=#4e4e4e   ctermfg=250    ctermbg=239       gui=bold      cterm=none
     hi FoldColumn   guifg=#bcbcbc   guibg=#4e4e4e   ctermfg=250    ctermbg=239       gui=bold      cterm=none
 
@@ -215,7 +215,7 @@ elseif g:lucius_style == "dark_dim"
     hi TabLine      guifg=bg        guibg=#8a8a8a   ctermfg=bg     ctermbg=245       gui=none      cterm=none
     hi TabLineFill  guifg=#444444   guibg=#8a8a8a   ctermfg=238    ctermbg=245       gui=none      cterm=none
     hi TabLineSel   guifg=fg        guibg=#005f87   ctermfg=fg     ctermbg=24        gui=bold      cterm=bold
-    hi VertSplit    guifg=#8a8a8a   guibg=#8a8a8a   ctermfg=245    ctermbg=245       gui=none      cterm=none
+    hi VertSplit    guifg=#444444   guibg=#444444   ctermfg=238    ctermbg=238       gui=none      cterm=none
     hi Folded       guifg=#a8a8a8   guibg=#4e4e4e   ctermfg=248    ctermbg=239       gui=bold      cterm=none
     hi FoldColumn   guifg=#a8a8a8   guibg=#4e4e4e   ctermfg=248    ctermbg=239       gui=bold      cterm=none
 
@@ -299,7 +299,7 @@ elseif g:lucius_style == "light"
     hi TabLine      guifg=bg        guibg=#808080   ctermfg=bg     ctermbg=244       gui=none      cterm=none
     hi TabLineFill  guifg=#b2b2b2   guibg=#808080   ctermfg=249    ctermbg=244       gui=none      cterm=none
     hi TabLineSel   guifg=fg        guibg=#afd7ff   ctermfg=fg     ctermbg=153       gui=none      cterm=none
-    hi VertSplit    guifg=#808080   guibg=#808080   ctermfg=244    ctermbg=244       gui=none      cterm=none
+    hi VertSplit    guifg=#dadada   guibg=#dadada   ctermfg=253    ctermbg=253       gui=none      cterm=none
     hi Folded       guifg=#626262   guibg=#bcbcbc   ctermfg=241    ctermbg=250       gui=bold      cterm=none
     hi FoldColumn   guifg=#626262   guibg=#bcbcbc   ctermfg=241    ctermbg=250       gui=bold      cterm=none
 
