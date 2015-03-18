@@ -186,6 +186,16 @@ elseif g:lucius_style == "light"
     hi DiffDelete   guifg=fg        guibg=#d7afaf   ctermfg=fg     ctermbg=181       gui=none      cterm=none
     hi DiffText     guifg=#d75f00   guibg=#d7d7af   ctermfg=166    ctermbg=187       gui=bold      cterm=bold
 
+    " ## Mail ##
+    hi mailQuoted1   guifg=#87d7ff   guibg=NONE      ctermfg=117    ctermbg=NONE      gui=none      cterm=none
+    hi mailQuoted2   guifg=#afd787   guibg=NONE      ctermfg=150    ctermbg=NONE      gui=none      cterm=none
+    hi mailQuoted3   guifg=#d7875f   guibg=NONE      ctermfg=173    ctermbg=NONE      gui=none      cterm=none
+    hi mailQuoted4   guifg=#87d7af   guibg=NONE      ctermfg=115    ctermbg=NONE      gui=none      cterm=none
+    hi mailQuoted5   guifg=#d8afd7   guibg=NONE      ctermfg=182    ctermbg=NONE      gui=none      cterm=none
+    hi mailQuoted6   guifg=#87d7ff   guibg=NONE      ctermfg=117    ctermbg=NONE      gui=none      cterm=none
+    hi mailURL       guifg=#87d7ff   guibg=NONE      ctermfg=117    ctermbg=NONE      gui=none      cterm=none
+    hi mailEmail     guifg=#87d7ff   guibg=NONE      ctermfg=117    ctermbg=NONE      gui=none      cterm=none
+
     " ## Misc ##
     hi Directory    guifg=#00875f   guibg=NONE      ctermfg=29     ctermbg=NONE      gui=none      cterm=none
     hi ErrorMsg     guifg=#af0000   guibg=NONE      ctermfg=124    ctermbg=NONE      gui=none      cterm=none
