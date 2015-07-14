@@ -1,3 +1,4 @@
 set fo=
-set spell
-set spelllang=en,de
+set nospell
+" set spell
+" set spelllang=en,de
