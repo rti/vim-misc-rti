@@ -45,7 +45,7 @@ if g:lucius_style == "dark"
     hi Special      ctermfg=182    ctermbg=NONE      cterm=none
     hi BSpecial     ctermfg=182    ctermbg=NONE      cterm=bold
 
-    " ## Text Markup
+    " ## Text Markup ##
     hi Underlined   ctermfg=fg     ctermbg=NONE      cterm=underline
     hi Error        ctermfg=210    ctermbg=88        cterm=none
     hi Todo         ctermfg=185    ctermbg=58        cterm=none
@@ -54,7 +54,7 @@ if g:lucius_style == "dark"
     hi SpecialKey   ctermfg=65     ctermbg=NONE      cterm=none
     hi Title        ctermfg=74     ctermbg=NONE      cterm=bold
 
-    " ## Text Select
+    " ## Text Select ##
     hi Cursor       ctermfg=bg     ctermbg=110       cterm=none
     hi CursorIM     ctermfg=bg     ctermbg=110       cterm=none
     hi CursorColumn ctermfg=NONE   ctermbg=238       cterm=none
@@ -64,7 +64,7 @@ if g:lucius_style == "dark"
     hi IncSearch    ctermfg=bg     ctermbg=80        cterm=none
     hi Search       ctermfg=bg     ctermbg=172       cterm=none
 
-    " == UI ==
+    " ## UI ##
     hi Pmenu        ctermfg=bg     ctermbg=249       cterm=none
     hi PmenuSel     ctermfg=fg     ctermbg=24        cterm=none
     hi PmenuSbar    ctermfg=249    ctermbg=252       cterm=none
@@ -141,7 +141,7 @@ elseif g:lucius_style == "light"
     hi Special      ctermfg=90     ctermbg=NONE      cterm=none
     hi BSpecial     ctermfg=90     ctermbg=NONE      cterm=bold
 
-    " ## Text Markup
+    " ## Text Markup ##
     hi Underlined   ctermfg=fg     ctermbg=NONE      cterm=underline
     hi Error        ctermfg=124    ctermbg=217       cterm=none
     hi Todo         ctermfg=94     ctermbg=228       cterm=none
@@ -150,7 +150,7 @@ elseif g:lucius_style == "light"
     hi SpecialKey   ctermfg=151    ctermbg=NONE      cterm=none
     hi Title        ctermfg=25     ctermbg=NONE      cterm=bold
 
-    " ## Text Select
+    " ## Text Select ##
     hi Cursor       ctermfg=bg     ctermbg=67        cterm=none
     hi CursorIM     ctermfg=bg     ctermbg=67        cterm=none
     hi CursorColumn ctermfg=NONE   ctermbg=253       cterm=none
