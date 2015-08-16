@@ -211,8 +211,25 @@ call <sid>hi("Type",         s:gui0A, "", s:cterm0A, "", "none", "")
 call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "", "")
 
 " C highlighting
-call <sid>hi("cOperator",   s:gui0C, "", s:cterm0C, "", "", "")
-call <sid>hi("cPreCondit",  s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cCharacter",      s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("cDefine",         s:gui08, "", s:cterm08, "", "none", "")
+call <sid>hi("cInclude",        s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("cLabel",          s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cOperator",       s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cPreCondit",      s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("cPreProc",        s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("cRepeat",         s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cStatement",      s:gui0E, "", s:cterm0E, "", "none", "")
+call <sid>hi("cStorageClass",   s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cType",           s:gui0E, "", s:cterm0E, "", "none", "")
+call <sid>hi("cUserLabel",      s:gui0E, "", s:cterm0E, "", "", "")
+
+" C++ highlighting
+call <sid>hi("cppExceptions",   s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cppOperator",     s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cppStatement",    s:gui0E, "", s:cterm0E, "", "none", "")
+call <sid>hi("cppStorageClass", s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cppType",         s:gui0E, "", s:cterm0E, "", "none", "")
 
 " C# highlighting
 call <sid>hi("csClass",                 s:gui0A, "", s:cterm0A, "", "", "")
